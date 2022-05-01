@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17918" started-at="2022-04-26T02:38:41Z" finished-at="2022-04-26T02:38:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17918" started-at="2022-04-26T02:38:41Z" finished-at="2022-04-26T02:38:59Z">
+      <class name="org.Deleteallclases.ExtendReport">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:org.Deleteallclases.ExtendReport@6ea6d14e]" name="launchBrowser" is-config="true" duration-ms="14680" started-at="2022-04-26T08:08:27Z" finished-at="2022-04-26T08:08:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="openFacebook()[pri:0, instance:org.Deleteallclases.ExtendReport@6ea6d14e]" name="openFacebook" duration-ms="6622" started-at="2022-04-26T08:08:41Z" finished-at="2022-04-26T08:08:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openFacebook -->
+        <test-method status="PASS" signature="openGoogle()[pri:0, instance:org.Deleteallclases.ExtendReport@6ea6d14e]" name="openGoogle" duration-ms="3248" started-at="2022-04-26T08:08:48Z" finished-at="2022-04-26T08:08:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openGoogle -->
+        <test-method status="PASS" signature="openWiki()[pri:0, instance:org.Deleteallclases.ExtendReport@6ea6d14e]" name="openWiki" duration-ms="8007" started-at="2022-04-26T08:08:51Z" finished-at="2022-04-26T08:08:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWiki -->
+        <test-method status="PASS" signature="close()[pri:0, instance:org.Deleteallclases.ExtendReport@6ea6d14e]" name="close" is-config="true" duration-ms="3288" started-at="2022-04-26T08:08:59Z" finished-at="2022-04-26T08:09:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- org.Deleteallclases.ExtendReport -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [sangar suite]">
+  <parameter name="password" value="aysafayappan"/>
+  <parameter name="username" value="ayasfyappan"/>
+  <test name="Both correct">
+    <parameter name="password" value="ayyappan"/>
+    <parameter name="username" value="ayyappan"/>
+    <classes>
+      <class name="org.allclasses.BothIncorrect"/>
+    </classes>
+  </test> <!-- Both correct -->
+  <test name="user correct">
+    <parameter name="password" value="aafyyappan"/>
+    <parameter name="username" value="ayyappan"/>
+    <classes>
+      <class name="org.allclasses.CorrectUserWrongPass"/>
+    </classes>
+  </test> <!-- user correct -->
+  <test name="pass correct">
+    <parameter name="password" value="ayyappan"/>
+    <parameter name="username" value="asfsafyappan"/>
+    <classes>
+      <class name="org.allclasses.WrongUserCorrectPass"/>
+    </classes>
+  </test> <!-- pass correct -->
+  <test name="Both incorrect">
+    <parameter name="password" value="aysafayappan"/>
+    <parameter name="username" value="ayasfyappan"/>
+    <classes>
+      <class name="org.allclasses.BothIncorrect"/>
+    </classes>
+  </test> <!-- Both incorrect -->
+</suite> <!-- Failed suite [sangar suite] -->

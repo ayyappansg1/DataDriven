@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="sangar suite">
+<test name="Both correct">
+<parameter name="username" value="ayyappan"></parameter>
+<parameter name="password" value="ayyappan"></parameter>
+<classes>
+<class name="org.allclasses.BothIncorrect"/>
+</classes>
+</test>
+<test name="user correct">
+<parameter name="username" value="ayyappan"></parameter>
+<parameter name="password" value="aafyyappan"></parameter>
+<classes>
+<class name="org.allclasses.CorrectUserWrongPass"/>
+</classes>
+</test>
+<test name="pass correct">
+<parameter name="username" value="asfsafyappan"></parameter>
+<parameter name="password" value="ayyappan"></parameter>
+<classes>
+<class name="org.allclasses.WrongUserCorrectPass"/>
+</classes>
+</test>
+<test name="Both incorrect">
+<parameter name="username" value="ayasfyappan"></parameter>
+<parameter name="password" value="aysafayappan"></parameter>
+<classes>
+<class name="org.allclasses.BothIncorrect"/>
+</classes>
+</test>
+</suite>
